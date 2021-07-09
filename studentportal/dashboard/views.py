@@ -83,9 +83,9 @@ def homework(request):
 def update_homework(request,pk=None):
   homework = Homework.objects.get(id=pk)
   if homework.is_finished == True:
-    homework.is_finished == False
+    homework.is_finished = False
   else:
-    homework.is_finished == True
+    homework.is_finished = True
   homework.save()
   return redirect("homework")
 
@@ -167,9 +167,9 @@ def todo(request):
 def update_todo(request,pk=None):
   todo = Todo.objects.get(id=pk)
   if todo.is_finished == True:
-    todo.is_finished == False
+    todo.is_finished = False
   else:
-    todo.is_finished == True
+    todo.is_finished = True
   todo.save()
   return redirect('todo')
 @login_required
