@@ -7,5 +7,7 @@
 ### 4.Do Youtube
 ### 5.Do Wikipedia
 ### 6.Search Dictionary
-### 7.Reads Books
+### 7.Read Books
 ### 8.Do Conversion
+
+### All are having in single dashboard and Proper authentication system.
