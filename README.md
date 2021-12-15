@@ -1,4 +1,4 @@
-# Student_Dashboaed by Django
+# Student_Dashboard by Django
 ## This is very much helpful for a students. They easily do many things in one site.
 ## They can do :-
 ### 1.Write Notes
